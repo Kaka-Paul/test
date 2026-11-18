@@ -1,0 +1,33 @@
+# Generated presentation previews, caches and intermediate files.
+# Keep build/inspection scripts under version control.
+/.ppt_build/*
+!/.ppt_build/*.mjs
+!/.ppt_build/*.py
+
+# Generated deliverables (original project documents remain tracked).
+/output/
+
+# Dependencies and Python caches.
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and environment configuration.
+.env
+.env.*
+!.env.example
+
+# Office lock files and temporary files.
+~$*
+.~lock.*#
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Operating system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini
